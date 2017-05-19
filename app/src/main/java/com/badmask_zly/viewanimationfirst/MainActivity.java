@@ -1,13 +1,9 @@
 package com.badmask_zly.viewanimationfirst;
 
-import android.os.Handler;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-import android.view.MotionEvent;
-import android.view.View;
 import android.widget.Scroller;
 import android.widget.TextView;
-import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -20,19 +16,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-       // tv_first= (TextView) findViewById(R.id.tv_first);
-
         mScroller =new Scroller(getApplicationContext());
-
-       // tv_first.getX();//额，就是为了测试邮箱与验证码
-        //嗯，第一次邮箱配置的不对，所以再来一次
-
-      //  tv_first.setOnClickListener(new View.OnClickListener() {
-//            @Override
-//            public void onClick(View v) {
-//                //smooth_scrollby();
-//            }
-//        });
 
     }
 
