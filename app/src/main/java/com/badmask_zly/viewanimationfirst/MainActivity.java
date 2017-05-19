@@ -25,6 +25,7 @@ public class MainActivity extends AppCompatActivity {
         mScroller =new Scroller(getApplicationContext());
 
        // tv_first.getX();//额，就是为了测试邮箱与验证码
+        //嗯，第一次邮箱配置的不对，所以再来一次
 
       //  tv_first.setOnClickListener(new View.OnClickListener() {
 //            @Override
